@@ -104,8 +104,8 @@ const Header = () => {
         </button>
       </nav>
       <article className="flex flex-col lg:flex-row xl:flex-row pt-[7rem] items-center justify-between gap-10">
-        <div className="font-sans lg:w-[50%] w-[80%] m-auto gid place-items-center text-center lg:m-0 lg:text-left ">
-          <h3 className="font-man lg:text-[3rem] text-[2.8rem] text-white font-normal">
+        <div className="font-sans lg:w-[50%] w-[80%] m-auto gid place-items-center md:text-center lg:m-0 lg:text-left ">
+          <h3 className="font-man lg:text-[3rem] text-[2.4rem] text-white font-normal ">
             Save time by building fast with Boldo Template{" "}
           </h3>
           <p className="text-[#F1F1F1] py-6 font-normal text-[1rem] xl:py-10">

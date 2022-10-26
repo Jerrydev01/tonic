@@ -67,7 +67,7 @@ const Service = () => {
       <article className="">
         <div className="text-center">
           <p className="text-gray-600 text-[1.25rem] font-sans">Our Services</p>
-          <h3 className="font-man lg:text-[3rem] text-[2rem] px-7 lg:px-0">
+          <h3 className="font-man lg:text-[3rem] text-[1.8rem] px-7 lg:px-0">
             Handshake infographic mass market crowdfunding iteration.
           </h3>
         </div>
@@ -214,7 +214,7 @@ export const Service2 = () => {
           </div>
         </div>
         <div className="lg:w-[85%] px-10 lg:px-0">
-          <h3 className="font-man text-[2.25rem] pt-14 lg:pt-0">
+          <h3 className="font-man lg:text-[2.25rem] text-[1.8rem]  pt-14 lg:pt-0">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h3>
@@ -245,7 +245,7 @@ export const Service3 = () => {
     <article className="lg:mt-32 mb-14 font-sans">
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center lg:gap-10 w-full">
         <div className="lg:w-[85%] px-10 lg:px-0">
-          <h3 className="font-man text-[2.25rem] pt-14 lg:pt-0">
+          <h3 className="font-man  lg:text-[2.25rem] text-[1.8rem]  pt-14 lg:pt-0">
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h3>

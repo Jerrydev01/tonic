@@ -58,7 +58,7 @@ const Blog = () => {
       <section className="pb-10 xl:px-[9.375rem] lg:px-[4.375rem] px-[2.5rem]">
         <div className="text-center font-man">
           <h5 className="font-sans text-gray-600">Our Blog</h5>
-          <h3 className="lg:text-[3rem] text-[2rem] ">
+          <h3 className="lg:text-[3rem] text-[1.8rem] ">
             Value proposition accelerator product management venture
           </h3>
         </div>
@@ -137,7 +137,7 @@ const Blog = () => {
 export const EmailLetter = () => {
   return (
     <div className="bgImageHero">
-      <h3 className="lg:text-[3rem] text-[2rem] xl:w-[55%] lg:w-[75%] w-full m-auto pt-8 font-man text-center text-white px-4 lg:px-0">
+      <h3 className="lg:text-[3rem] text-[1.8rem] xl:w-[55%] lg:w-[75%] w-full m-auto pt-8 font-man text-center text-white px-4 lg:px-0">
         An enterprise template to ramp up your company website
       </h3>
       <div className="font-sans ">

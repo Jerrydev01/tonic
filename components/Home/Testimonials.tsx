@@ -74,7 +74,7 @@ const Testimonials = () => {
   return (
     <section className="mb-14">
       <section className=" relative bg-color-primary xl:px-[9.375rem] lg:px-[4.375rem] px-[2.5rem] py-14">
-        <h3 className="font-man text-white lg:text-[3rem] text-[2.5rem] font-normal lg:w-[65%] pb-8 lg:pb-0">
+        <h3 className="font-man text-white lg:text-[3rem] text-[1.8rem] font-normal lg:w-[65%] pb-8 lg:pb-0">
           An enterprise template to ramp up your company website
         </h3>
         <div className="absolute  z-[2] flex gap-6 md:right-10 md:top-0 md:translate-y-[7rem]  translate-y-[-1rem] md:-translate-x-28">
@@ -176,7 +176,7 @@ export const Customer = () => {
         <div className="">
           <Image src={banner2} alt="service" width={1100} height={403} />
           <div className="flex flex-col lg:flex-row items-center justify-between gap-5 pt-8">
-            <h3 className="font-man text-[2rem] lg:text-[2.25rem] lg:w-[50%]">
+            <h3 className="font-man text-[1.8rem] lg:text-[2.25rem] lg:w-[50%]">
               We connect our customers with the best, and help them keep up-and
               stay open.
             </h3>
