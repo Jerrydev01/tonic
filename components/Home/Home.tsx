@@ -18,7 +18,7 @@ const Home = () => {
       <section className="mt-[6rem] ">
         <Blog />
       </section>
-      <section className="mt-[6rem] px-[4rem]">
+      <section className="mt-[6rem] lg:px-[4rem] px-[2.5rem] ">
         <Footer />
       </section>
     </section>

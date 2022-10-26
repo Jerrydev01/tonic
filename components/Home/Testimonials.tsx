@@ -73,11 +73,11 @@ const testimonies: Testimony[] = [
 const Testimonials = () => {
   return (
     <section className="mb-14">
-      <section className=" relative bg-color-primary xl:px-[9.375rem] lg:px-[4.375rem] py-14">
-        <h3 className="font-man text-white text-[3rem] font-normal w-[65%]">
+      <section className=" relative bg-color-primary xl:px-[9.375rem] lg:px-[4.375rem] px-[2.5rem] py-14">
+        <h3 className="font-man text-white lg:text-[3rem] text-[2.5rem] font-normal lg:w-[65%] pb-8 lg:pb-0">
           An enterprise template to ramp up your company website
         </h3>
-        <div className="absolute z-[200] flex gap-6 right-10 top-0 translate-y-[7rem] -translate-x-28">
+        <div className="absolute  z-[2] flex gap-6 md:right-10 md:top-0 md:translate-y-[7rem]  translate-y-[-1rem] md:-translate-x-28">
           <div className="swiper-button-prev cursor-pointer">
             <Image src={prevEl} alt="prev" width={72} height={72} />
           </div>
@@ -90,6 +90,20 @@ const Testimonials = () => {
             slidesPerView={3}
             spaceBetween={30}
             modules={[Navigation]}
+            breakpoints={{
+              300: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              708: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }}
             className="mySwiper"
             navigation={{
               nextEl: ".swiper-button-next",
@@ -157,12 +171,12 @@ export const Customer = () => {
   };
 
   return (
-    <section className="xl:px-[9.375rem] lg:px-[4.375rem] pt-16">
+    <section className="xl:px-[9.375rem] lg:px-[4.375rem] pt-16 px-[2.5rem]">
       <article className="">
         <div className="">
           <Image src={banner2} alt="service" width={1100} height={403} />
-          <div className="flex items-center justify-between gap-5 pt-8">
-            <h3 className="font-man text-[2.25rem] w-[50%]">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-5 pt-8">
+            <h3 className="font-man text-[2rem] lg:text-[2.25rem] lg:w-[50%]">
               We connect our customers with the best, and help them keep up-and
               stay open.
             </h3>

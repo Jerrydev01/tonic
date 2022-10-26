@@ -6,8 +6,8 @@ import logoBlack from "../../assets/Logoblack.svg";
 
 const Footer = () => {
   return (
-    <section className="flex font-sans items-center grid-rows-2 gap-[6rem] text-gray-600 pb-7">
-      <div className="w-[30%]">
+    <section className="lg:flex font-sans items-center grid grid-cols-2 lg:gap-[6rem] gap-5 text-gray-600 pb-7">
+      <div className="lg:w-[30%]">
         <Image src={logoBlack} alt="logo" width={156} height={41} />
         <p className="pt-4 pb-10">
           Social media validation business model canvas graphical user interface
@@ -55,7 +55,7 @@ const Footer = () => {
             <Link href="">
               <a className="flex gap-3 hover:text-[#65E4A3] ">
                 Careers
-                <span className="bg-[#65E4A3] text-color-primary p-2 rounded-[50px] absolute text-[12px] right-0 -translate-y-1 translate-x-10">
+                <span className="bg-[#65E4A3] text-color-primary p-2 rounded-[50px] absolute text-[12px] right-0 -translate-y-1 lg:translate-x-10">
                   Hiring!
                 </span>
               </a>
@@ -68,7 +68,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="">
+      <div className="pl-5 lg:pl-0">
         <ul className="">
           <li className="font-bold text-color-primary pb-3">
             <Link href="">
